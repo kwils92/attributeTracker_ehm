@@ -1,0 +1,4 @@
+-- ATTRIBUTE TRACKER BUG LIST ----> 2019-01-15
+
+	1. If a user "X's" out of the TutForm when Shapes are on screen, the shapes will remain on screen. 
+	2. 
