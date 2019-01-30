@@ -2,3 +2,6 @@
 
 	1. If a user "X's" out of the TutForm when Shapes are on screen, the shapes will remain on screen. (PATCHED)
 	2. Ensure font colour of CP column is white as to not reveal hidden booleans
+	3. Sheet and Workbook names need to be literal paths -- if a user changes the name of either, the program will crash. 
+		- Get worksheet names and assign to variables. That way names of sheets can change, and they won't fuck up the prog. 
+		- Changing order will still fuck it up. 
